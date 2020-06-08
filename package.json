@@ -1,0 +1,31 @@
+{
+  "name": "gv-server-status",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Binarysearch/gv-server-status.git"
+  },
+  "author": "Antonio Ruiz Gutierrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Binarysearch/gv-server-status/issues"
+  },
+  "homepage": "https://github.com/Binarysearch/gv-server-status#readme",
+  "devDependencies": {
+    "@types/node": "~8.9.4",
+    "ts-loader": "^7.0.0"
+  },
+  "dependencies": {
+    "@piros/ioc": "0.0.5",
+    "@piros/status": "0.0.4",
+    "@types/node": "^13.13.5",
+    "typescript": "^3.8.3"
+  }
+}
